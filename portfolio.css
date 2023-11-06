@@ -1,0 +1,661 @@
+.bg {
+    background-color: #1f262f;
+    height: auto;
+}
+
+.fiximage {
+    margin-top: 30px;
+    width: 60%;
+}
+
+.Navbar {
+    width: 100%;
+    float: left;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.Navbar ul {
+    text-align: right;
+    padding-top: 60px;
+
+}
+
+.Navbar ul li {
+    display: inline;
+    padding-left: 20px;
+    list-style: none;
+}
+
+.Navbar ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding-left: 20px;
+}
+
+.Navbar ul li a:hover {
+    text-decoration: none;
+    font-size: 20px;
+    color: gold;
+    padding-left: 20px;
+}
+
+.bg2 {
+    background-color: #1f262f;
+    height: auto;
+}
+
+.top_head {
+    color: white;
+    padding-top: 40px;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+}
+
+.head {
+    color: white;
+    padding-top: 15px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: italic;
+}
+
+.para {
+    width: 70%;
+    color: white;
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+.but {
+    width: 150px;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    height: 40px;
+    text-align: center;
+    font-size: 15px;
+    margin-left: 30px;
+    text-transform: capitalize;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 20px;
+    border: none;
+}
+
+.but:hover {
+    color: #bac6d6;
+    background-color: rgba(26, 78, 132, 0.495);
+}
+
+.but_2 {
+    width: 150px;
+    float: left;
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    text-align: center;
+    font-size: 15px;
+    border: none;
+    margin-left: 30px;
+    text-transform: capitalize;
+    background-color: #2c75d8;
+    color: white;
+    border-radius: 20px;
+}
+
+.but_2:hover {
+    color: #bac6d6;
+    background-color: #3c0573ce;
+}
+
+.porfile {
+    width: 90%;
+    height: 400px;
+    margin-left: 10%;
+   
+    margin-top: 100px;
+    border-radius: 10px;
+}
+
+.bg_3 {
+    height: auto;
+
+}
+
+.left_head {
+    text-transform: uppercase;
+    padding-top: 60px;
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.left_head2 {
+    font-weight: bold;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.line {
+    height: 10px;
+    background-color: #2fc8e1;
+    padding-left: 100px;
+    width: 20px;
+    margin-left: 3px;
+    margin-bottom: 30px;
+}
+
+.cardimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.activities_head {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.hiking_head {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.mountains_head {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.activities_para {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+    width: 70%;
+    font-weight: bold;
+
+    margin: auto;
+    padding-bottom: 200px;
+}
+
+.rock_head {
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 30px;
+}
+
+.events_head {
+    font-size: 35px;
+    padding-top: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+.events_para {
+    padding-top: 20px;
+    font-size: 20px;
+    width: 80%;
+    letter-spacing: 2px;
+    color: black;
+    padding-bottom: 15px;
+}
+
+.line_2 {
+    height: 2px;
+    background-color: #2fc8e1;
+    padding-left: 100px;
+    width: 70%;
+    margin-left: 0px;
+    margin-bottom: 30px;
+}
+
+.modouls_head {
+    font-size: 25px;
+    font-family: italic;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.start_text {
+    font-weight: bold;
+    padding-top: 10px;
+
+    font-size: 30px;
+    text-transform: capitalize;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    float: left;
+    padding-bottom: 100px;
+}
+
+.price_text {
+
+    font-size: 30px;
+    padding-top: 10px;
+    padding-left: 220px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.personimg {
+    margin-top: 140px;
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.img_para {
+    font-size: 35px;
+    font-weight: bold;
+    color: orangered;
+    width: 70%;
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 20px;
+    font-family: italic;
+
+}
+
+.bg4 {
+
+    height: 520px;
+    margin: auto;
+    max-height: 520px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1Af6MGxm3W6--m9hIYn9FaBXH_UmJ3Qk3bw&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-clip: cover;
+    background-position: center center;
+    opacity: 0.9;
+    margin-bottom: 50px;
+}
+.national_head{
+    padding-top: 100px;
+    color: white;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: cursive;
+  
+}
+.hike_text{
+    font-size: 25px;
+    color: white;
+    text-transform: uppercase;
+    padding-top: 30px;
+}
+.Lorem_text{
+    color: white;
+    padding-top: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.but_3{
+    width: 150px;
+    height: 35px;
+    text-transform: capitalize;
+    color: white;
+    text-align: center;
+   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1Af6MGxm3W6--m9hIYn9FaBXH_UmJ3Qk3bw&usqp=CAU");
+   background-position: left bottom;
+    margin-top: 30px;
+    border: 3px solid rgb(23, 49, 72);
+}
+.bg5
+{
+    padding-bottom: 70px;
+}
+.left2_head {
+    text-transform: uppercase;
+    padding-top: 60px;
+    font-size: 35px;
+    word-spacing: 10px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.line_3 {
+    height: 10px;
+    background-color: #2fc8e1;
+    padding-left: 70px;
+    width: 20px;
+    margin-left: 0px;
+    margin-bottom: 30px;
+}
+.lpsum_text{
+    font-size: 20px;
+    font-family: cursive;
+  
+}
+.person2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.make_text{
+    padding-top: 20px;
+    font-size: 40px;
+    font-family: cursive;
+    font-weight: bold;
+    color: #0cc4df;
+    padding-left: 100px;
+    
+}
+.bg6{
+    background-color: #1f262f;
+    height: auto;
+    padding-bottom: 100px;
+}
+.walking_text{
+    padding-top: 100px;
+    color: orangered;
+    font-family: cursive;
+    font-size: 40px;
+    font-weight: bold;
+}
+.text{
+    color: wheat;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
+    padding-top: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.text_2{
+    padding-top: 10px;
+    font-size: 25px;
+    color: white;
+    word-spacing: 5px;
+    padding-bottom: 30px;
+}
+.travel_person{
+    width: 90%;
+    height: 300px;
+    margin-top: 100px;
+    border: 5px solid orangered;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bg7
+{
+    height: auto;
+    padding-bottom: 100px;
+}
+.travel_boys{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    
+}
+.mountain_text{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.Lorem_text2{
+    text-align: center;
+    padding-top: 6px;
+    font-size: 20px;
+    width: 70%;
+    margin: auto;
+    padding-bottom: 10px;
+}
+.line_4{
+    height: 1px;
+    background-color: grey;
+    padding-left: 70px;
+    width: 200px;
+    margin-left: 64px;
+    margin-bottom: 30px;
+}
+.location_head{
+    font-size: 25px;
+    text-transform: capitalize;
+    font-weight: bold;
+ 
+    padding-left: 60px;
+}
+.miles_text{
+    padding-left: 40px;
+    font-size: 25px;
+    font-family: italic;
+}
+.but_4{
+    width: 170px;
+    height: 38px;
+    margin-top: 100px;
+    display: block;
+    margin: auto;
+    text-transform: capitalize;
+    margin-top: 100px;
+    text-align: center;
+    border:5px solid #0cc4df;
+}
+.bg9{
+    height: auto;
+    background-color: #1f262f;
+    padding-top: 100px;
+}
+.rock_head2{
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 30px;
+    color: white;
+}
+.trave5{
+    width: 80%;
+    height: auto;
+    /* color: white; */
+}
+
+
+
+.events_head2 {
+    font-size: 35px;
+    padding-top: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+}
+
+.events_para2 {
+    padding-top: 20px;
+    font-size: 20px;
+    width: 80%;
+    letter-spacing: 2px;
+    color: black;
+    padding-bottom: 15px;
+    color: white;
+}
+
+.line_6 {
+    height: 2px;
+    background-color: #2fc8e1;
+    padding-left: 100px;
+    width: 70%;
+    margin-left: 0px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.modouls_head2 {
+    font-size: 25px;
+    font-family: italic;
+    font-weight: bold;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.start_text2 {
+    font-weight: bold;
+    padding-top: 10px;
+    color: white;
+    font-size: 30px;
+    text-transform: capitalize;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    float: left;
+    padding-bottom: 100px;
+}
+
+.price_text2 {
+    color: white;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-left: 220px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.img_para2 {
+    font-size: 35px;
+    font-weight: bold;
+    color: #0cc4df;
+    width: 70%;
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 40px;
+    font-family: italic;
+
+}
+.bg10 {
+
+    height: 520px;
+    margin: auto;
+    max-height: 520px;
+    background-image: url("https://www.goabroad.com/section_cloudinary/gaplabs/image/upload/v1641873081/images2/program_content/dsdRiiHblFynJTjdawr3rxOuJGXISZ0w7JyM2XxP.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-clip: cover;
+    background-position: center bottom;
+    opacity: 0.9;
+   
+}
+.asanas_text{
+    padding-top: 150px;
+    color: white;
+    font-size: 25px;
+    text-transform: capitalize;
+    font-weight: bold;
+    width: 60%;
+    word-spacing: 5px;
+    text-align: center;
+    margin: auto;
+    font-family: cursive;
+}
+.mountainlogo{
+    
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+}
+.but_5{
+    width: 170px;
+    height: 38px;
+    margin-top: 20px;
+    display: block;
+    margin: auto;
+    color: white;
+    text-transform: capitalize;
+    margin-top: 40px;
+    text-align: center;
+    background-image: url("https://www.goabroad.com/section_cloudinary/gaplabs/image/upload/v1641873081/images2/program_content/dsdRiiHblFynJTjdawr3rxOuJGXISZ0w7JyM2XxP.jpg");
+    background-position: center bottom;
+    border:5px solid #0cc4df;
+}
+.bg11{
+    height: auto;
+
+}
+.foot_text{
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 100px;
+    text-transform: uppercase;
+}
+.footer_para{
+    width: 80%;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
+    padding-top: 10px;
+}
+.footerimg{
+    width: 40%;
+    height: auto;
+    margin-top: 40px;
+    margin-bottom: 70px;
+
+}
+.foot_text2{
+    padding-top: 180px;
+    padding-left: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+footer {
+   
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.footer ul {
+    text-align: left;
+    padding-top: 60px;
+    font-weight: bolder;
+}
+
+.footer ul li {
+ 
+   
+    list-style: none;
+}
+
+.footer  ul li a {
+    text-decoration: none;
+    font-size: 20px;
+   color: black;
+   
+}
+
+.footer  ul li a:hover {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(44, 85, 189);
+   
+}
+.bg12{
+    height: 30px;
+    background-color: #0cc4df;
+}

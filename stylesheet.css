@@ -1,0 +1,138 @@
+.bg
+{
+    background: orange;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background: #0f2c38;
+    height: auto;
+}
+.fix
+{
+    width: 80%;
+    height: 80px;
+}
+.navbar
+{
+    width: 100%;
+    float: left;
+    justify-content: end;
+}
+.navbar ul
+{
+  text-align: right;
+  padding-top: 10px;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+.navbar ul li
+{
+  list-style: none;
+  display: inline;
+  padding-left: 30px;
+  position: relative;
+}
+.navbar ul li a
+{
+  text-decoration: none;
+  font-size: 22px;
+  color: white;
+  padding-left: 30px;
+}
+
+.navbar ul li ::after
+{
+    content: "";
+    height: 3px;
+    width: 0px;
+    background: orangered;
+    margin-left: 60px;
+    position: absolute;
+    left: 0px;
+    bottom: -18px;
+    transition: 0.5s;
+}
+.navbar ul li a:hover::after
+{
+    width: 70%;
+  text-decoration: none;
+  font-size: 22px;
+  color:orangered;
+  padding-left: 30px;
+}
+.bg2
+{
+    background:#0f2c38;
+    height: 450px;
+}
+.text
+{
+    color: #e3bf03;
+    padding-top: 150px;
+    font-size: 60px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.mountain
+{
+    width: 90%;
+    height: 50%;
+    margin-top: 40px;
+    padding-left: 30px;
+    
+    border-radius: 50%;
+}
+.text_2
+{
+    padding-top: 160px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+.head
+{
+    text-align: center;
+    padding-top: 5px;
+    color: white;
+    font-size: 14px;
+}
+.bg3
+{
+    background:#0f2c38;
+    height: auto;
+    padding-bottom: 100px;
+}
+.circle
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #ffffff;
+    display: inline-block;
+    position: relative;
+}
+.app
+{
+    position: absolute;
+    font-size: 25px;
+    left: 12px;
+    right: 8px;
+    cursor: pointer;
+    top: 5px;
+}
+.last
+{ 
+    color: white;
+    text-align: right;
+    font-size: 30px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.last:visited
+{
+    color: white;
+}
+.last:hover
+{
+    color: white;
+}
